@@ -1,0 +1,2 @@
+#!/bin/bash
+find /etc/passwd | xargs grep -n -A3 'root'

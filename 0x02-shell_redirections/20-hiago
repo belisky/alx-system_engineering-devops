@@ -1,0 +1,3 @@
+#!/bin/bash
+read -p 'Enter: ' word
+echo $word| tr -d 'Cc'
